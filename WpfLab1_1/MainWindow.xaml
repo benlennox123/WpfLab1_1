@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfLab1_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLab1_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="375" Width="350" Background="#FFB9B9B9">
+    <Grid Background="#FF9C9C9C">
+        <Button Content="4" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="90,229,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="170,174,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="90,174,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="170,229,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="170,119,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="90,119,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="90,284,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="," HorizontalAlignment="Left" Margin="10,284,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="170,284,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FFBFBFBF" RenderTransformOrigin="0.499,-0.164"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="257,284,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FF7C7C7C"/>
+        <Button Content="х" HorizontalAlignment="Left" Margin="257,229,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FF7C7C7C"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="257,174,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FF7C7C7C"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="257,119,0,0" VerticalAlignment="Top" Width="75" Height="50" FontSize="24" Background="#FF7C7C7C"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="62" Width="322" Text="0" FontSize="36" TextOptions.TextHintingMode="Fixed" FrameworkElement.FlowDirection="RightToLeft" FontWeight="Light"/>
+
+    </Grid>
+</Window>
